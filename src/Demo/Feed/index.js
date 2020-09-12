@@ -1,8 +1,8 @@
 import React from 'react';
 import {Row, Col, Collapse, Breadcrumb} from 'react-bootstrap';
-// import '@progress/kendo-theme-material/dist/all.css';
-// import './../../assets/custom_css/button.css';
-// import './../../assets/custom_css/custom.css';
+import '@progress/kendo-theme-material/dist/all.css';
+import './../../assets/custom_css/button.css';
+import './../../assets/custom_css/custom.css';
 import "./feed.css";
 import {Button} from 'react-bootstrap';
 import { Avatar } from '@progress/kendo-react-layout';
