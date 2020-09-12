@@ -31,7 +31,7 @@ class Feed extends React.Component {
         if (this.state.tweetMessage.trim() == ""){
             return false
         }
-        event.preventDefault(); 
+        
         fetch(this.tweetpost, {
             method:"POST",
             headers: authHeader(),
