@@ -31,7 +31,7 @@ class Feed extends React.Component {
         if (this.state.tweetMessage.trim() == ""){
             return false
         }
-        
+        event.preventDefault(); 
         fetch(this.tweetpost, {
             method:"POST",
             headers: authHeader(),
@@ -40,7 +40,7 @@ class Feed extends React.Component {
                 "message":this.state.tweetMessage,
             })
         }).then(response => response.json())
-        .then(json => {   
+        .then(json => { 
                 if (json.status == 'success'){
                     this.setState({
                         tweetMessage : ""
