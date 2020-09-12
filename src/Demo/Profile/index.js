@@ -98,7 +98,7 @@ class Profile extends React.Component {
         
         return (
            
-                <div style={{width: "50%"}} className="feed">
+                <div  className="feed">
                     <div className="feed__header post">
                         <h6 style={{cursor:"pointer"}}>
                             <i onClick={this.setting} style={{fontSize:"30px",color:"#008bcf",paddingRight: "20px"}} className="feather icon-arrow-left"/>

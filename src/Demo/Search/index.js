@@ -64,7 +64,7 @@ class Search extends React.Component {
         document.title = title + ' | Search';
         
         return (
-            <div style={{width: "50%"}} className="feed">
+            <div className="feed">
                 {this.state.new_user ?  <Profile setting={this.setting}email={this.state.new_user_email} /> :
                 <div>
                 <div className="feed__header">
