@@ -1,0 +1,122 @@
+.overwrap {
+  word-wrap: break-word;
+  white-space: normal; 
+  width: 50vh;
+  overflow-wrap: break-word;
+}
+
+.post {
+  padding-top: 0px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-background); 
+    padding-bottom: 10px;
+  }
+  .post1 {
+    display: flex;
+    align-items: flex-start;
+    /* border-bottom: 1px solid var(--twitter-background);  */
+    padding-bottom: 10px;
+  }
+  
+  .post__body {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .post__body > img {
+    border-radius: 20px;
+  }
+  
+  .post__footer {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    cursor: pointer;;
+    float:left;
+    font-size: 18px;
+  }
+  
+  .post__headerDescription {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  .post__headerText > h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .post__badge {
+    font-size: 14px !important;
+    color: var(--twitter-color);
+  }
+  
+  .post__headerSpecial {
+    font-weight: 600;
+    font-size: 15px;
+    color: gray;
+  }
+  
+  .post__avatar {
+    padding: 20px;
+  }
+
+  .liked{
+    color :red
+  }
+
+  .tweetBox1 {
+    background-color: white;
+    /* padding-bottom: 10px; */
+    /* border-bottom: 8px solid var(--twitter-background); */
+    padding-right: 10px;
+    padding-bottom: 0px;
+  }
+  
+  .tweetBox1 > form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+
+  .tweetBox {
+    background-color: white;
+    padding-bottom: 10px;
+    /* border-bottom: 8px solid var(--twitter-background); */
+    padding-right: 10px;
+  }
+  
+  .tweetBox > form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tweetBox__input {
+    display: block;
+    overflow:hidden; 
+    padding: 20px;
+    display: flex;
+  }
+  
+  .tweetBox__input > input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+  }
+  
+  
+  
+  .tweetBox__tweetButton {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 80px;
+    height: 40px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+  }

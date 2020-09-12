@@ -1,0 +1,14 @@
+.k-button.k-primary {
+    border-color: #0090d6;
+    color:#fff;
+    background-color: #0090d6;
+}
+
+.k-pager-numbers .k-state-selected {
+    color: #fff;
+    background-color:#0090d6;
+}
+
+.nv-slice, .nv-bar {
+    cursor:pointer;
+}

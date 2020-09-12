@@ -1,0 +1,270 @@
+.welcome-to-Avacom {
+  font-family: Noto Sans;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.login-header{
+  font-family: Noto Sans;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #008bcf;
+  margin-bottom: 10px;
+}
+
+.login-main-wrapper{
+  width: 100%;
+  float: left;
+  display: flex;
+  min-height: 600px;
+}
+.login-wrapper{
+	width:100%
+}
+.form-label{
+ font-family: Noto Sans;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.remember-me{
+	font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #646464;
+  width:100%;
+}
+.one-half-section {
+  width: 42%;
+  height: 100vh;
+	float: left;
+  /*background-image: linear-gradient(to bottom, #0090d6, #0e1630);*/
+  background-image:url('./../../../assets/images/laptop-work.webp');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+	color: #ffffff;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.bg-image {
+  height:100vh;
+  background-image:url('./../../../assets/images/laptop-work.webp');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.login-help{
+	font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #646464;
+}
+.login-help-not-recieve{
+  font-size:12px;margin-bottom:5px;
+}
+.verify-button{
+  width:100%;background-color:#0090d6;
+}
+.security-clear-button{
+  width:45%;border-color:#0090d6;color:#0090d6;background-color:#ffffff;
+}
+.security-submit-button{
+  width:45%;background-color:#0090d6;margin-left:8%;
+}
+.login-back-header{
+	font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #646464;
+margin-bottom:10px;
+}
+.sub-title {
+    font-family: Noto Sans;
+    width: 100%;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.sub-title-black {
+    font-family: Noto Sans;
+    width: 100%;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+.second-half-section {
+  width: 58%;
+  height: 100vh;
+	float: left;
+	padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.separator {
+	width: 78px;
+	height: 5px;
+	background-color: #1fd9e1;
+	margin: 40px 0;
+}
+
+.separator-grey {
+	width: 100%;
+	height: 3px;
+	background-color: #d9d9d9;
+	margin: 30px 0;
+}
+
+
+.content-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.inner-content-wrapper {
+	margin-top:15px;
+	    border-radius: 4px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+	    padding: 30px;
+}
+
+.tabs-wrapper {
+    display: flex;
+	margin-bottom: 20px;
+}
+
+.tabs {
+    border-radius: 25px;
+    background-color: #c0edeb;
+    text-align: center;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.tabs span {
+  font-family: Noto Sans;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #15989d;
+}
+
+.section-title {
+	font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.date-label{
+	font-family: Noto Sans;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #646464;
+}
+.clear-button{
+	width:45%;
+	border-color:#0090d6;
+	color:#0090d6;
+	background-color:#ffffff;
+}
+.validate-button{
+	width:45%;
+	background-color:#0090d6;
+	margin-left:8%;
+}
+.slotFullWidth{
+  width:100%;
+}
+
+.blue-button{
+	width:100%;
+	background-color:#0090d6
+}
+.pull-right{
+	float:right;
+}
+.pull-left{
+	float:left;
+}
+.section-content {
+	font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #646464;
+      margin: 20px 0;
+}
+
+.read-more {
+	font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #008bcf !important;
+}
+
+.link {
+  color: #008bcf !important;
+}

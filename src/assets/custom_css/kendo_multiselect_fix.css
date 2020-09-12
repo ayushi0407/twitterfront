@@ -1,0 +1,12 @@
+/* This is a fix for multiselect popup showing behind modal dialog */
+.k-animation-container {
+  z-index: 100000
+}
+
+/* .k-animation-container .k-animation-container-relative{
+  z-index: 10002
+} */
+
+.k-treeview-lines{
+  padding-inline-start:0;
+}
