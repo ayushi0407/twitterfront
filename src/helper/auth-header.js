@@ -29,6 +29,17 @@ export function getEmail() {
         return ;
     }
 }
+
+export function getInitials() {
+    let user = JSON.parse(localStorage.getItem('user'));
+
+    if (user && user.first_name && user.last_name) {
+        var name = user.first_name[0] +user.last_name[0]
+        return name;
+    } else {
+        return ;
+    }
+}  
 export function logout(){    
     localStorage.removeItem('user');    
     history.push('/');

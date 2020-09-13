@@ -6,7 +6,7 @@ import "./post.css";
 import {Button} from 'react-bootstrap';
 import { Avatar } from '@progress/kendo-react-layout';
 import { Input  } from '@progress/kendo-react-inputs';
-import { authHeader,getEmail} from '../../helper/auth-header';
+import { authHeader,getEmail,getInitials} from '../../helper/auth-header';
 import { Dialog } from '@progress/kendo-react-dialogs';
 
 class Post extends React.Component {

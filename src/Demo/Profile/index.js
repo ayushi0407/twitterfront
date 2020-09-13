@@ -62,7 +62,6 @@ class Profile extends React.Component {
             });
     }
     componentWillMount(){
-       
         if (this.props.email ==  getEmail()){
             this.setState({ myprofile : true })
         }else{

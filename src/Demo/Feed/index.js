@@ -9,7 +9,7 @@ import { Avatar } from '@progress/kendo-react-layout';
 import { Input  } from '@progress/kendo-react-inputs';
 import { authHeader,getEmail} from '../../helper/auth-header';
 import Post from '../Post/index'
-import './../../assets/images/user/avatar-1.jpg'
+
 
 
 class Feed extends React.Component { 
